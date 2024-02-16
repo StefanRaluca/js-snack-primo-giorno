@@ -7,7 +7,7 @@
  2. Lo stampo nella console usando il console log richiamando il nome della variabile  
  */
 
- 
+
 let number = 100;
 console.log(number);
 
@@ -19,7 +19,7 @@ console.log(number);
 2.Stampo nella console usando il console log con il richiamo del nome della constante
  */
 
-/*const PI = 3.14;
+/*const PI = 3.14; //number
 console.log(PI);*/
 
 
@@ -28,7 +28,7 @@ console.log(PI);*/
 2. Per cambiare il valore della constante , dovrei annulare la prima constante dichiarata (vedi es 2 a),altrimenti la console segnala un errore  dove ci dice che il valore della constante PI è già assegnato. 
  */
 
-const PI =3.1416;
+const PI = 3.1416;//number
 console.log(PI);
 
 
@@ -40,6 +40,20 @@ console.log(PI);
  */
 
 
-let radius =8;
-let circle = (radius *2 * PI)
+let radius = 8; //number
+let circle = (radius * 2 * PI) //number
 console.log(circle);
+
+//Esercizio 3
+/*1.Dichiaro una variabile con il nome "name" alla quale gli assegno il  valore richiesto "Carlo"
+2.Alla variabile name gli cambio il valore in "Marco"
+3.Stampo nella console la variabile name, che avrà il secondo valore.
+ */
+
+let name = 'Carlo'; //string
+
+name = 'Marco'; //string
+
+
+
+console.log(name);
